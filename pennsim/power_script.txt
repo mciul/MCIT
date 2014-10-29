@@ -1,0 +1,10 @@
+as power power
+reset
+ld power
+set PC INIT
+set PSR x0002
+break set EXEC
+break set END
+continue
+set R0 10
+set R1 0

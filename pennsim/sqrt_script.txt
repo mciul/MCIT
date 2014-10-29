@@ -1,0 +1,8 @@
+as sqrt sqrt
+reset
+ld sqrt
+break set EXEC
+break set DONE
+set PC INIT
+continue
+set R0 16

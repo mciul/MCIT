@@ -1,0 +1,8 @@
+as fibonacci fibonacci
+reset
+ld fibonacci
+break set WHILE_LOOP
+break set DONE
+set PC INIT
+set PSR x0002
+

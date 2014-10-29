@@ -1,0 +1,6 @@
+as counter counter
+reset
+ld counter
+break set INFINITE_LOOP
+continue
+set R1 2
